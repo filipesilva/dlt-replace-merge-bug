@@ -1,0 +1,2 @@
+# https://hub.docker.com/r/clickhouse/clickhouse-server/
+docker run --name repro-clickhouse-server -e CLICKHOUSE_DB=my_database -e CLICKHOUSE_USER=username -e CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT=1 -e CLICKHOUSE_PASSWORD=password -p 9000:9000/tcp -p 8123:8123 --rm clickhouse/clickhouse-server

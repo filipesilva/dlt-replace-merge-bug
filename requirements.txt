@@ -1,0 +1,6 @@
+dlt[duckdb]>=1.2.0
+dlt[clickhouse]>=1.2.0
+dlt[postgres]>=1.2.0
+pandas>=2.0.0
+dlt>=1.2.0
+pyarrow>=17.0.0
